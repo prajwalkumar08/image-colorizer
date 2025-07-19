@@ -29,17 +29,3 @@ colorization_release_v2.caffemodel
 pts_in_hull.npy
 
 
-**File Structure**
-image-colorizer/
-│
-├── app.py                 # Main Flask app
-├── requirements.txt       # Python dependencies
-├── models/                # Folder containing model files (downloaded Caffe models)
-├── uploads/               # Folder where uploaded images are saved
-├── static/                # Static assets like CSS or JS (optional)
-├── templates/
-│   ├── index.html         # HTML template for the web interface
-│   
-└── .gitignore             # Git ignore file (model files should be ignored)
-
-
