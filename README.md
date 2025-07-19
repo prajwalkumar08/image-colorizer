@@ -8,6 +8,13 @@ Colorize the uploaded image using a deep learning model.
 
 Download the colorized image.
 
+## 🧠 Key Deep Learning Technologies Used
+
+- **Convolutional Neural Networks (CNNs)**: Used to extract features from grayscale images and predict appropriate color values.
+- **Caffe Framework**: The colorization model is trained and run using Caffe.
+- **Pre-trained Caffe Model**: A model trained on a large dataset (ImageNet) for image colorization tasks.
+- **LAB Color Space**: Images are converted to LAB color space, where the 'L' channel is the input, and the model predicts 'a' and 'b' channels for color.
+
 **Requirements**
 Python 3.x
 
